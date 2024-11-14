@@ -1,6 +1,6 @@
 # Cliente y Servidor TCP en Python
 
-Este proyecto implementa un servidor TCP y un cliente TCP en Python que se comunican entre sí en localhost usando el puerto 5000.
+En este proyecto se implementa un servidor y cliente TCP en Python que se comunican entre sí a través de localhost por el puerto 5000.
 
 ## Requisitos
 
@@ -8,7 +8,7 @@ Este proyecto implementa un servidor TCP y un cliente TCP en Python que se comun
 
 ## Instrucciones de Ejecución
 
-1. Primero, inicie el servidor con python o python3 (según aplique):
+1. Inicie el servidor con python o python3 (según aplique):
 ```bash
 python server.py
 ```
@@ -47,5 +47,5 @@ python3 client.py
 
 - El servidor acepta conexiones en localhost:5000
 - Convierte los mensajes recibidos a mayúsculas
-- Maneja la desconexión apropiadamente
-- Soporta múltiples conexiones secuenciales
+- Maneja la desconexión correctamente
+- Soporta múltiples conexiones
