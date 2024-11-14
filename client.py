@@ -1,6 +1,7 @@
 import socket
 
 def start_client():
+    
     # Create TCP/IP socket
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
@@ -33,7 +34,5 @@ def start_client():
 if __name__ == "__main__":
     try:
         start_client()
-    except KeyboardInterrupt:
-        print("\nClient stopped")
     except Exception as e:
         print(f"Error: {e}")
