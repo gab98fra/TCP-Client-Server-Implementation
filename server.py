@@ -44,8 +44,6 @@ def start_server():
 if __name__ == "__main__":
     try:
         start_server()
-    except KeyboardInterrupt:
-        print("\nServer stopped")
     except Exception as e:
         print(f"Error: {e}")
 
