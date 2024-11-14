@@ -12,10 +12,21 @@ Este proyecto implementa un servidor TCP y un cliente TCP en Python que se comun
 ```bash
 python server.py
 ```
+or
+
+```bash
+python3 server.py
+```
+
 
 2. En otra terminal, inicie el cliente con python o python3 (según aplique):
 ```bash
 python client.py
+```
+or
+
+```bash
+python3 client.py
 ```
 
 ### Prueba 1: Mensaje Normal
